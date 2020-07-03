@@ -77,16 +77,18 @@
         My name is Krysia and I'm an aspiring Frontend developer and on the road to becoming a minimalist.
       </section>
       <section class="header__description--smaller">
-        Now that you're here, you might enjoy having a look at <a href="#">my skills</a>. To see them at work, please
-        refer to the list of <a href="#">my projects</a>. If you like what you see or have any questions, please feel
-        free to <a href="#">contact me</a>.
+        Now that you're here, you might enjoy having a look at <a href="#skills">my skills</a>. To see them at work,
+        please
+        refer to the list of <a href="#projects">my projects</a>. If you like what you see or have any questions, please
+        feel
+        free to <a href="#contact">contact me</a>.
       </section>
-      <a href="mailto:a.krystyna.janik@gmail.com">a.krystyna.janik@gmail.com</a>
+      <a href="mailto:a.krystyna.janik@gmail.com" class="email">a.krystyna.janik@gmail.com</a>
     </article>
   </header>
 
   <main>
-    <article class="skills">
+    <article class="skills" id="skills">
       <h1 class="skills__header">My skills</h1>
       <section class="skills__section">
         <h2 class="skills__section-header">Working knowledge</h2>
@@ -124,11 +126,11 @@
       </section>
     </article>
 
-    <article class="projects">
+    <article class="projects" id="projects">
       <h1 class="projects__header">Recent projects</h1>
       <p class="projects__subheader">In autumn of 2019 I discovered how fascinating coding can be and decided to give it
         a go. These are some the projects that I have created along the way.</p>
-      <section class="projects__box">
+      <div class="projects__box">
         <table class="projects__table">
           <thead>
             <tr>
@@ -147,15 +149,21 @@
             </tr>
           </tbody>
         </table>
-        
-      </section>  
+      </div>
+    </article>
 
+    <article class="contact" id="contact">
+      <h1 class="contact__header">Contact me</h1>
+      <p class="contact__subheader">I'm open to new opportunities! If you happen to have anything that suits my
+        profile, I would be happy to talk about it.</p>
+        <div class="contact__social-media">
+        <a class="contact__button" href="#">gh</a>
+        <a class="contact__button" href="#">linkedin</a>
+        <a class="contact__button" href="#">f</a>
+      </div>
+      <a href="mailto:a.krystyna.janik@gmail.com" class="email">a.krystyna.janik@gmail.com</a>
     </article>
   </main>
-
-  <footer>
-
-  </footer>
 </body>
 
 </html>
