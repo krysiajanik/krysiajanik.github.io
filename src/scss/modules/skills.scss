@@ -1,12 +1,8 @@
 .skills {
     background: $theme;
     color: $white;
-    box-sizing: border-box;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
+    padding: $sectionPadding;
     &__header {
-        margin: 64px 0;
         padding-top:64px;
         font-weight: bold;
         font-size: 24px;
@@ -15,7 +11,7 @@
     }
     &__image {
       width: 160px;
-      margin-bottom: 16px;
+      margin: 16px 0;
     }
     &__section-header {
         margin-bottom: 24px;
@@ -26,13 +22,19 @@
         font-weight: 600;
         color: $babyblue;
         padding: 12px 24px;
+        
       &--green {
+        list-style: url("../assets/img/small-tick.svg");
       }
       &--item {
+        padding: 12px;
       }
       &--white {
+        list-style: url("../assets/img/small-tick-blue.svg");
       }
+      
       &--dot {
+        list-style: url("../assets/img/bullet.png");
       }
     }
   }

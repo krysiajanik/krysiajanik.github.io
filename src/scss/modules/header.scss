@@ -1,6 +1,7 @@
 .header {
   min-height: 100vh;
   line-height: 32px;
+  padding: $sectionPadding;
 
   &__greeting {
     display: none;
@@ -10,7 +11,7 @@
     height: 96px;
     border: 16px solid #f6f9fd;
     border-radius: 50%;
-    margin-top: 98px;
+    margin-top: 34px;
   }
   &__description {
     &--highlight {
