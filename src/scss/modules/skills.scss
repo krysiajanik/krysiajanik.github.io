@@ -2,13 +2,17 @@
     background: $theme;
     color: $white;
     &__header {
+        margin: 64px auto;
+        padding-top:64px;
     }
     &__section {
     }
     &__image {
-      width: 64px;
+      width: 120px;
+      margin-bottom: 16px;
     }
     &__section-header {
+        margin-bottom: 24px;
     }
     &__list {
       &--green {
