@@ -6,27 +6,87 @@
 
 body {
   background: $white;
-  color:$text;
+  color: $text;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
-.header__image{
-  width: 180px;
-  height: 180px;
-  border: 24px solid #F6F9FD;
-  border-radius: 50%;
+
+
+.header {
+  &__greeting {
+  }
+  &__image {
+    width: 180px;
+    height: 180px;
+    border: 24px solid #f6f9fd;
+    border-radius: 50%;
+  }
+  &__description {
+    &--highlight {
+    }
+    &--smaller {
+    }
+  }
 }
 
-.projects__items {
-  text-align: right;
-  margin-right: 4px ;
+.email {
 }
 
-.skills__image {
-  width: 64px;
+.skills {
+  &__header {
+  }
+  &__section {
+  }
+  &__image {
+    width: 64px;
+  }
+  &__section-header {
+  }
+  &__list {
+    &--green {
+    }
+    &--item {
+    }
+    &--white {
+    }
+    &--dot {
+    }
+  }
+}
+
+.projects {
+  &__header {
+  }
+  &__subheader {
+  }
+  &__box {
+  }
+  &__table {
+  }
+  &__items {
+    text-align: right;
+    margin-right: 4px;
+  }
+  &__name {
+  }
+  &__published {
+  }
+  &__gh {
+  }
+}
+
+.contact {
+  &__header {
+  }
+  &__subheader {
+  }
+  &__social-media {
+  }
+  &__button {
+  }
 }
