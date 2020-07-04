@@ -1,21 +1,51 @@
 .projects {
     padding: $sectionPadding;
     &__header {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 48px;
     }
     &__subheader {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 32px;
     }
     &__box {
+        width: 288px;
+        height: 320px;
+        background-image: url(../assets/img/console-mobile.png);
+        background-repeat: no-repeat;
+        background-size: 288px 320px;
+        padding: 0;
+        color: $grey;
+        font-family: "Roboto Mono", sans-serif;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 24px;
     }
     &__table {
+        width: 100%;
+        padding: 112px 16px 24px 16px;
+        table-layout: fixed;
     }
     &__items {
-      text-align: right;
-      margin-right: 4px;
+        font-weight: normal;
+        text-align: right;
+        margin-right: 4px;
+        width: 100px;
+    }
+    &__properties{
+        text-align: left;
     }
     &__name {
+        color: $white;
+        font-weight: bold;
+    }
+    &__link {
+        color: #14B5D0;
     }
     &__published {
     }
     &__gh {
     }
-  }
+}
