@@ -1,5 +1,5 @@
 .projects {
-    padding: $sectionPadding;
+    padding: 64px 0;
     &__header {
         font-weight: bold;
         font-size: 36px;
@@ -9,14 +9,19 @@
         font-weight: 300;
         font-size: 16px;
         line-height: 32px;
+        padding: 0 16px;
     }
     &__box {
-        width: 288px;
-        height: 320px;
+        width: 320px;
+        min-height: 352px;
         background-image: url(../assets/img/console-mobile.png);
+        background-clip: border-box;
+        background-origin: border-box;
+        background-position: top left;
         background-repeat: no-repeat;
-        background-size: 288px 320px;
+        background-size: contain;
         padding: 0;
+        margin: 0;
         color: $grey;
         font-family: "Roboto Mono", sans-serif;
         font-weight: normal;
@@ -26,6 +31,7 @@
     &__table {
         width: 100%;
         padding: 112px 16px 24px 16px;
+        // 
         table-layout: fixed;
     }
     &__items {
@@ -33,6 +39,7 @@
         text-align: right;
         margin-right: 4px;
         width: 100px;
+        vertical-align: baseline;
     }
     &__properties{
         text-align: left;
@@ -43,9 +50,5 @@
     }
     &__link {
         color: #14B5D0;
-    }
-    &__published {
-    }
-    &__gh {
     }
 }
