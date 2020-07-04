@@ -1,0 +1,36 @@
+.header {
+  min-height: 100vh;
+  line-height: 32px;
+  
+  &__greeting {
+    display: none;
+  }
+  &__image {
+    width: 96px;
+    height: 96px;
+    border: 16px solid #f6f9fd;
+    border-radius: 50%;
+    margin-top: 98px;
+  }
+  &__description {
+    &--highlight {
+      font-weight: bold;
+      font-size: 26px;
+      margin: 40px 0 16px 0;
+    }
+    &--smaller {
+      font-weight: 300;
+      font-size: 16px;
+      margin-bottom: 48px;
+    }
+  }
+  &__link {
+    color: $lightblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  &__strong{
+    color: $theme;
+  }
+}

@@ -1,7 +1,11 @@
 @import "~normalize.css";
 
 @import "_variables";
-@import "modules/hello.scss";
+@import "modules/contact.scss";
+@import "modules/header.scss";
+@import "modules/projects.scss";
+@import "modules/skills.scss";
+
 @import "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;0,700;1,400&family=Roboto+Mono:wght@300;400&display=swap";
 
 html {
@@ -30,39 +34,7 @@ body {
   padding: 0 16px;
 }
 
-.header {
-  min-height: 100vh;
-  line-height: 32px;
-  
-  &__greeting {
-    display: none;
-  }
-  &__image {
-    width: 96px;
-    height: 96px;
-    border: 16px solid #f6f9fd;
-    border-radius: 50%;
-    margin-top: 98px;
-  }
-  &__description {
-    &--highlight {
-      font-weight: bold;
-      font-size: 26px;
-      margin: 40px 0 16px 0;
-    }
-    &--smaller {
-      font-weight: 300;
-      font-size: 16px;
-      margin-bottom: 48px;
-    }
-  }
-  &__link {
-    color: $lightblue;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-  }
-}
+
 
 .email {
   background: $lightblue;
@@ -74,56 +46,7 @@ body {
   padding: 12px 24px;
 }
 
-.skills {
-  &__header {
-  }
-  &__section {
-  }
-  &__image {
-    width: 64px;
-  }
-  &__section-header {
-  }
-  &__list {
-    &--green {
-    }
-    &--item {
-    }
-    &--white {
-    }
-    &--dot {
-    }
-  }
-}
 
-.projects {
-  &__header {
-  }
-  &__subheader {
-  }
-  &__box {
-  }
-  &__table {
-  }
-  &__items {
-    text-align: right;
-    margin-right: 4px;
-  }
-  &__name {
-  }
-  &__published {
-  }
-  &__gh {
-  }
-}
 
-.contact {
-  &__header {
-  }
-  &__subheader {
-  }
-  &__social-media {
-  }
-  &__button {
-  }
-}
+
+

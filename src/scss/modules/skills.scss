@@ -1,0 +1,23 @@
+.skills {
+    background: $theme;
+    color: $white;
+    &__header {
+    }
+    &__section {
+    }
+    &__image {
+      width: 64px;
+    }
+    &__section-header {
+    }
+    &__list {
+      &--green {
+      }
+      &--item {
+      }
+      &--white {
+      }
+      &--dot {
+      }
+    }
+  }
