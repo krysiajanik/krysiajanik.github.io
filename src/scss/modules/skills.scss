@@ -1,20 +1,31 @@
 .skills {
     background: $theme;
     color: $white;
+    box-sizing: border-box;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
     &__header {
-        margin: 64px auto;
+        margin: 64px 0;
         padding-top:64px;
+        font-weight: bold;
+        font-size: 24px;
     }
     &__section {
     }
     &__image {
-      width: 120px;
+      width: 160px;
       margin-bottom: 16px;
     }
     &__section-header {
         margin-bottom: 24px;
     }
     &__list {
+        text-align: left;
+        font-size: 16px;
+        font-weight: 600;
+        color: $babyblue;
+        padding: 12px 24px;
       &--green {
       }
       &--item {
