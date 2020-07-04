@@ -15,6 +15,13 @@ body {
   font-family: 'Nunito', sans-serif;
 }
 
+.header__image{
+  width: 180px;
+  height: 180px;
+  border: 24px solid #F6F9FD;
+  border-radius: 50%;
+}
+
 .projects__items {
   text-align: right;
   margin-right: 4px ;
