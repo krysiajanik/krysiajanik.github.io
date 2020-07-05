@@ -1,68 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Krysia Janik - Portfolio</title>
-  <meta name="description" content="Krysia Janik - Portfolio" />
-  <!-- Title -->
-  <meta property="og:title" content="Krysia Janik - Portfolio" />
-  <meta property="og:description" content="Portfolio początkującego frontend developera" />
-  <meta property="og:url" content="https://krysiajanik.github.io/" />
-  <!-- full url to the image with http(s) ie. https://maciejkorsan.github.io/my-repo/assets/img/fb.png. Facebook suggests at least 1200 x 630. -->
-  <meta property="og:image" content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png" />
+  <meta name="description" content="Krysia Janik - Portfolio">
+  <meta property="og:title" content="Krysia Janik - Portfolio">
+  <meta property="og:description" content="Portfolio początkującego frontend developera">
+  <meta property="og:url" content="https://krysiajanik.github.io/">
+  <meta property="og:image" content="https://krysiajanik.github.io/assets/img/cover.png">
 
   <!-- uncomment the line below to enable PWA  -->
   <!-- <link rel="manifest" href="manifest.json" /> -->
 
-  <link rel="apple-touch-icon" sizes="180x180" href="pwa/apple-icon-180.png" />
-  <link rel="apple-touch-icon" sizes="167x167" href="pwa/apple-icon-167.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="pwa/apple-icon-152.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="pwa/apple-icon-120.png" />
 
-  <meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="apple-touch-icon" sizes="180x180" href="pwa/apple-icon-180.png">
+<link rel="apple-touch-icon" sizes="167x167" href="pwa/apple-icon-167.png">
+<link rel="apple-touch-icon" sizes="152x152" href="pwa/apple-icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="pwa/apple-icon-120.png">
 
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-2048-2732.png"
-    media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-2732-2048.png"
-    media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1668-2388.png"
-    media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-2388-1668.png"
-    media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1668-2224.png"
-    media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-2224-1668.png"
-    media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1536-2048.png"
-    media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-2048-1536.png"
-    media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1242-2688.png"
-    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-2688-1242.png"
-    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1125-2436.png"
-    media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-2436-1125.png"
-    media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-828-1792.png"
-    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1792-828.png"
-    media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1242-2208.png"
-    media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-2208-1242.png"
-    media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-750-1334.png"
-    media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1334-750.png"
-    media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-640-1136.png"
-    media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" />
-  <link rel="apple-touch-startup-image" href="pwa/apple-splash-1136-640.png"
-    media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-2048-2732.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-2732-2048.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-1668-2388.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-2388-1668.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-1668-2224.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-2224-1668.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-1536-2048.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-2048-1536.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-1242-2688.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-2688-1242.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-1125-2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-2436-1125.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-828-1792.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-1792-828.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-1242-2208.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-2208-1242.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-750-1334.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-1334-750.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-640-1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="pwa/apple-splash-1136-640.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
+
 </head>
 
 <body>
@@ -71,10 +48,10 @@
     <p class="header__greeting">
       Hello there!
     </p>
-    <img src="../assets/img/krysia.jpg" class="header__image" alt="Profesjonalne zdjęcie Krysi" />
+    <img src="../assets/img/krysia.jpg" class="header__image" alt="Profesjonalne zdjęcie Krysi">
     <article class="header__description">
       <div class="header__flexbox">
-        <div class="header__frame"><img src="../assets/img/{.png" /> </div>
+        <div class="header__frame"><img src="../assets/img/{.png"> </div>
         <div>
           <section class="header__description--highlight">
             My name is Krysia and I'm an aspiring <strong class="header__strong">Frontend developer</strong>.
@@ -91,7 +68,7 @@
             free to <a href="#contact" class="header__link">contact me</a>.
           </section>
         </div>
-        <div class="header__frame"><img src="../assets/img/}.png" /> </div>
+        <div class="header__frame"><img src="../assets/img/}.png"> </div>
       </div>
       <a href="mailto:a.krystyna.janik@gmail.com" class="email">a.krystyna.janik@gmail.com</a>
     </article>
@@ -102,7 +79,7 @@
       <h1 class="skills__header">My skills</h1>
       <div class="skills__flexbox">
         <section class="skills__section">
-          <img src="../assets/img/undraw_proud_coder_7ain.svg" class="skills__image" />
+          <img src="../assets/img/undraw_proud_coder_7ain.svg" class="skills__image">
           <h2 class="skills__section-header">Working knowledge</h2>
           <ul class="skills__list skills__list--green">
             <li class="skills__list--item">Semantic HTML</li>
@@ -114,7 +91,7 @@
           </ul>
         </section>
         <section class="skills__section">
-          <img src="../assets/img/undraw_work_in_progress_uhmv.svg" class="skills__image" />
+          <img src="../assets/img/undraw_work_in_progress_uhmv.svg" class="skills__image">
           <h2 class="skills__section-header">Know something about</h2>
           <ul class="skills__list skills__list--white">
             <li class="skills__list--item">JavaScript ES6 + features</li>
@@ -128,7 +105,7 @@
           </ul>
         </section>
         <section class="skills__section">
-          <img src="../assets/img/undraw_Organizing_projects_0p9a.svg" class="skills__image" />
+          <img src="../assets/img/undraw_Organizing_projects_0p9a.svg" class="skills__image">
           <h2 class="skills__section-header">Want to learn</h2>
           <ul class="skills__list skills__list--dot">
             <li class="skills__list--item">React JS</li>
@@ -210,16 +187,13 @@
       <p class="contact__subheader">I'm open to new opportunities. If you happen to have anything that suits my
         profile, I would be happy to talk it over.</p>
       <div class="contact__social-media">
-        <a class="contact__button" href="https://github.com/krysiajanik"><img src="../assets/img/git.svg"
-            class="contact__button--image" /></a>
-        <a class="contact__button" href="https://www.linkedin.com/in/krystyna-janik-02aa8060/"><img
-            src="../assets/img/linkedin.svg" class="contact__button--image" /></a>
-        <a class="contact__button" href="https://www.facebook.com/krysia.janik/"><img src="../assets/img/FB.svg"
-            class="contact__button--image" /></a>
+        <a class="contact__button" href="https://github.com/krysiajanik"><img src="../assets/img/git.svg" class="contact__button--image"></a>
+        <a class="contact__button" href="https://www.linkedin.com/in/krystyna-janik-02aa8060/"><img src="../assets/img/linkedin.svg" class="contact__button--image"></a>
+        <a class="contact__button" href="https://www.facebook.com/krysia.janik/"><img src="../assets/img/FB.svg" class="contact__button--image"></a>
       </div>
       <a href="mailto:a.krystyna.janik@gmail.com" class="email">a.krystyna.janik@gmail.com</a>
     </article>
   </main>
-</body>
 
-</html>
+
+</body></html>
