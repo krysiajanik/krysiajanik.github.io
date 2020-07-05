@@ -21,7 +21,7 @@
         background-repeat: no-repeat;
         background-size: contain;
         padding: 0;
-        margin: 0;
+        margin: 24px auto;
         color: $grey;
         font-family: "Roboto Mono", sans-serif;
         font-weight: normal;
@@ -31,7 +31,6 @@
     &__table {
         width: 100%;
         padding: 112px 16px 24px 16px;
-        // 
         table-layout: fixed;
     }
     &__items {
