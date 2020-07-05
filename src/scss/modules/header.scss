@@ -3,7 +3,7 @@
   line-height: 32px;
   padding: $sectionPadding;
 
-  &__flexbox{
+  &__flexbox {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -33,20 +33,27 @@
       font-weight: bold;
       font-size: 26px;
       margin: 40px 0 16px 0;
+      @media screen and (min-width: 768px) {
+        font-size: 32px;
+        line-height: 40px;
+      }
     }
     &--smaller {
       font-weight: 300;
       font-size: 16px;
       margin-bottom: 48px;
+      @media screen and (min-width: 768px) {
+        font-size: 20px;
+        line-height: 40px;
+      }
     }
   }
   &__link {
     color: $lightblue;
     text-decoration: none;
     font-weight: bold;
-    font-size: 16px;
   }
-  &__strong{
+  &__strong {
     color: $theme;
   }
 }
