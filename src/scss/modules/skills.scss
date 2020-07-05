@@ -5,15 +5,32 @@
     &__header {
         font-weight: bold;
         font-size: 36px;
+        @media screen and (min-width: 768px) {
+            font-size: 48px;
+            margin-bottom: 128px;
+          }
+    }
+    &__flexbox {
+        display: block;
+        margin: 0 auto;
+        @media screen and (min-width: 768px) {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-around;
+            max-width: 1200px;
+          }
     }
     &__section {
+        padding: 0 24px;
+        display: block;
     }
     &__image {
-        width: 160px;
+        height: 110px;
         margin: 16px 0;
     }
     &__section-header {
-        margin: 0 0 24px 0;
+        margin: 0 0 24px 08;
         font-weight: bold;
         font-size: 24px;
     }
