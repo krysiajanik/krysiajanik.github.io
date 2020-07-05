@@ -11,6 +11,21 @@
         line-height: 32px;
         padding: 0 16px;
     }
+
+    &__grid {
+        display: flex;
+        flex-direction: column;
+        @media screen and (min-width: 768px) {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-row-gap: 24px;
+            margin: 0 auto;
+        }
+        @media screen and (min-width: 1200px) {
+            grid-template-columns: 1fr 1fr;
+            max-width: 1200px;
+        }
+    }
     &__box {
         width: 320px;
         min-height: 352px;
@@ -24,11 +39,22 @@
         font-weight: normal;
         font-size: 13px;
         line-height: 24px;
+        @media screen and (min-width: 768px) {
+            width: 588px;
+            min-height: 324px;
+            background-image: url(../assets/img/console-desktop.png);
+            background-repeat: no-repeat;
+            background-size: 588px 324px;
+            font-size: 16px;
+        }
     }
     &__table {
         width: 100%;
         padding: 112px 16px 24px 16px;
         table-layout: fixed;
+        @media screen and (min-width: 768px) {
+            padding: 106px 32px 82px 32px;
+        }
     }
     &__items {
         font-weight: normal;
@@ -36,8 +62,11 @@
         margin-right: 4px;
         width: 100px;
         vertical-align: baseline;
+        @media screen and (min-width: 768px) {
+            width: 136px;
+        }
     }
-    &__properties{
+    &__properties {
         text-align: left;
     }
     &__name {
@@ -45,6 +74,6 @@
         font-weight: bold;
     }
     &__link {
-        color: #14B5D0;
+        color: #14b5d0;
     }
 }
