@@ -37,8 +37,6 @@ body {
   padding: 0;
 }
 
-
-
 .email {
   background: $lightblue;
   border-radius: 64px;
@@ -47,9 +45,7 @@ body {
   font-size: 18px;
   text-decoration: none;
   padding: 12px 24px;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
 }
-
-
-
-
-
