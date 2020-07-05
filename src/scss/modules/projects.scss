@@ -4,12 +4,20 @@
         font-weight: bold;
         font-size: 36px;
         line-height: 48px;
+        @media screen and (min-width: 768px) {
+            font-size: 48px;
+            line-height: 56px;
+        }
     }
     &__subheader {
         font-weight: 300;
         font-size: 16px;
         line-height: 32px;
         padding: 0 16px;
+        @media screen and (min-width: 768px) {
+            font-size: 20px;
+            line-height: 40px;
+        }
     }
 
     &__grid {
@@ -43,7 +51,6 @@
             width: 588px;
             min-height: 324px;
             background-image: url(../assets/img/console-desktop.png);
-            background-repeat: no-repeat;
             background-size: 588px 324px;
             font-size: 16px;
         }
