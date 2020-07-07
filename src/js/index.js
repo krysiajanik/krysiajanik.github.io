@@ -31,7 +31,7 @@ fetch(
           <tr>
             <td class="projects__items">demo:</td>
             <td class="projects__properties">
-              <a href="${name}" class="projects__link">&lt;see here&gt;</a> </td>
+              <a href="${homepage}" class="projects__link">&lt;see here&gt;</a> </td>
           </tr>
           <tr>
             <td class="projects__items">github:</td>
