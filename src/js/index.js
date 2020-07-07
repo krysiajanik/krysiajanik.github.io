@@ -49,3 +49,11 @@ fetch(
   .catch((error) => {
     console.log(error);
   });
+
+
+  const scrollHandling = document.querySelector(".header__link--js");
+
+  
+  scrollHandling.addEventListener('click', () => {
+    behavior: 'smooth' 
+  })
