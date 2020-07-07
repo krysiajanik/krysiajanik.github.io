@@ -1,6 +1,7 @@
 .contact {
     padding: $sectionPadding;
     background: $babyblue;
+    min-height: 100vh;
     &__header {
         font-weight: bold;
         font-size: 36px;
@@ -25,9 +26,7 @@
         display: block;
         padding: 64px 0;
         @media screen and (min-width: 768px) {
-            display: inline-block;
-            margin-right: 110px;
-            padding: 128px 0;
+            padding: 96px 0;
             margin-bottom: 40px;
         }
     }
