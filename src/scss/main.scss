@@ -51,3 +51,19 @@ body {
     font-size: 20px;
   }
 }
+
+
+.top {
+  display: none;
+  background: url(../assets/img/up.svg);
+  background-position: center;
+  background-size: 100%;
+  border: none;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  position: fixed;
+  bottom: 32px;
+  right: 8px;
+  padding: 0;
+}

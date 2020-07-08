@@ -57,3 +57,23 @@ fetch(
   scrollHandling.addEventListener('click', () => {
     behavior: 'smooth' 
   })
+
+
+  
+
+  const upTrigger = 0.5*Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+  const upButton = document.querySelector(".top--js");
+
+  
+  function showUP () {
+    if (window.scrollY > upTrigger) {
+        upButton.style.display = "block";
+      } else {
+        upButton.style.display = "none";
+      }
+  }
+
+window.addEventListener('scroll', showUP)
+
+
+
